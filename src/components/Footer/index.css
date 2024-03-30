@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  padding: 15px;
+  margin-top: 5px;
+}
+.footer-heading-style {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .footer-heading-style {
+    font-size: 40px;
+  }
+}
